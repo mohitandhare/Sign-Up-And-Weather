@@ -99,20 +99,36 @@
 				E4748C802ABF5FC0006C1BBE /* AppDelegate.swift */,
 				E4748C822ABF5FC0006C1BBE /* SceneDelegate.swift */,
 				E4748C862ABF5FC0006C1BBE /* Main.storyboard */,
-				E4748C842ABF5FC0006C1BBE /* ViewController.swift */,
-				E4748C942ABF6447006C1BBE /* Signup_ViewController.swift */,
-				E4DA1C482ABF82360039D124 /* Bio_Page_ViewController.swift */,
+				E4C1A8492AC042B700B9F4E7 /* ViewControllers */,
+				E4C1A8482AC0427800B9F4E7 /* Weather */,
 				E4748C892ABF5FC1006C1BBE /* Assets.xcassets */,
 				E4748C8B2ABF5FC1006C1BBE /* LaunchScreen.storyboard */,
 				E4748C8E2ABF5FC1006C1BBE /* Info.plist */,
 				E4748C962ABF6EA6006C1BBE /* GoogleService-Info.plist */,
+			);
+			path = "Sign-Up-And-Weather";
+			sourceTree = "<group>";
+		};
+		E4C1A8482AC0427800B9F4E7 /* Weather */ = {
+			isa = PBXGroup;
+			children = (
 				E4DA1C4C2ABF932A0039D124 /* ForecastManager.swift */,
 				E4DA1C4E2ABF932A0039D124 /* WeatherData.swift */,
 				E4DA1C4F2ABF932A0039D124 /* WeatherForecastData.swift */,
 				E4DA1C4D2ABF932A0039D124 /* WeatherManager.swift */,
 				E4DA1C502ABF932A0039D124 /* WeatherModel.swift */,
 			);
-			path = "Sign-Up-And-Weather";
+			path = Weather;
+			sourceTree = "<group>";
+		};
+		E4C1A8492AC042B700B9F4E7 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				E4748C842ABF5FC0006C1BBE /* ViewController.swift */,
+				E4748C942ABF6447006C1BBE /* Signup_ViewController.swift */,
+				E4DA1C482ABF82360039D124 /* Bio_Page_ViewController.swift */,
+			);
+			path = ViewControllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
